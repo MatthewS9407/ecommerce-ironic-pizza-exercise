@@ -3,4 +3,35 @@
 
     <img class="full-width" src="/images/homepage-pizza.jpeg" />
 
+
+    <form action="/search" method="GET">
+
+        <h3>Search</h3>
+
+        <label>
+            Max Price:
+            <input type="number" name="maxPrice"/>
+        </label>
+        
+
+        <button type="submit">Submit form</button>
+    </form>
+
+    <form action="/login" method="POST">
+        <h3>Login</h3>
+
+        <label>
+            Email:
+            <input type="email" name="email"/>
+        </label>
+
+        <label>
+            Password:
+            <input type="password" name="pw"/>
+        </label>
+
+        <button type="submit">Login</button>
+    </form>
+
+
     {{> ctaOrderNow }}
